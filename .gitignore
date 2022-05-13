@@ -1,0 +1,14 @@
+multicore/apps/baseline/*
+multicore/apps/xpulp/*
+multicore/banshee-results/baseline/*
+multicore/banshee-results/xpulp/*
+multicore/rtl-results/baseline/*
+multicore/rtl-results/xpulp/*
+singlecore/apps/baseline/*
+singlecore/apps/xpulp/*
+singlecore/banshee-results/baseline/*
+singlecore/banshee-results/xpulp/*
+singlecore/rtl-results/baseline/*
+singlecore/rtl-results/xpulp/*\
+
+log
