@@ -66,6 +66,11 @@ all-rtl-simulation: apps simcvcs $(addprefix rtl-,$(TESTS))
 $(addprefix rtl-,$(TESTS)):
 	app=$(patsubst rtl-%,%,$@) config=$(config) make -C $(MEMPOOL_DIR)/hardware benchmark \
 	| tee $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/$(patsubst rtl-%,%,$@)
+#	extract data
+	grep "[DUMP].*: 0x002 =    .*" $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/$(patsubst rtl-%,%,$@) \
+	| tr -s " :" "," | cut -d "," -f 2,5 | sort -n > \
+	$(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/res_$(patsubst rtl-%,%,$@)
+
 
 rtl-simulation: apps simcvcs
 #	cp -rf $(BENCHMARK_DIR)/$(CORES)/apps/$(MODE)/* $(MEMPOOL_DIR)/software/bin
@@ -80,6 +85,11 @@ $(addprefix banshee-,$(TESTS)):
 	--num-cores $(NUM_CORES) --num-clusters 1 --configuration config/mempool.yaml \
 	$(MEMPOOL_DIR)/software/bin/$(patsubst banshee-%,%,$@) --latency &> \
 	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(patsubst banshee-%,%,$@)
+#	extract relevant data
+	grep "TRACE banshee::engine > Core .*: Write CSR Frm = .*" \
+	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(patsubst banshee-%,%,$@) \
+	| sort | cut -d " " -f 6,11 | tr ":" "," > \
+	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/res_$(patsubst banshee-%,%,$@)
 
 
 banshee-simulation: apps simcvcs
@@ -90,7 +100,19 @@ banshee-simulation: apps simcvcs
 	$(MEMPOOL_DIR)/software/bin/$(TEST) --latency &> $(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(TEST)
 
 
-get-results:
+
+$(addprefix get-,$(TESTS)):
+#	extract data
+	grep "[DUMP].*: 0x002 =    .*" $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/$(patsubst get-%,%,$@) \
+	| tr -s " :" "," | cut -d "," -f 2,5 | sort -n > \
+	$(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/res_$(patsubst get-%,%,$@)
+	grep "TRACE banshee::engine > Core .*: Write CSR Frm = .*" \
+	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(patsubst get-%,%,$@) \
+	| sort | cut -d " " -f 6,11 | tr ":" "," > \
+	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/res_$(patsubst get-%,%,$@)
+
+get-results: $(addprefix get-,$(TESTS))
+
 
 .PHONY: clean
 clean:
