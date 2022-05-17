@@ -1,3 +1,9 @@
+hardcore/apps/baseline/*
+hardcore/apps/xpulp/*
+hardcore/banshee-results/baseline/*
+hardcore/banshee-results/xpulp/*
+hardcore/rtl-results/baseline/*
+hardcore/rtl-results/xpulp/*
 multicore/apps/baseline/*
 multicore/apps/xpulp/*
 multicore/banshee-results/baseline/*
@@ -9,6 +15,6 @@ singlecore/apps/xpulp/*
 singlecore/banshee-results/baseline/*
 singlecore/banshee-results/xpulp/*
 singlecore/rtl-results/baseline/*
-singlecore/rtl-results/xpulp/*\
+singlecore/rtl-results/xpulp/*
 
 log
