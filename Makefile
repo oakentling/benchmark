@@ -17,12 +17,20 @@ ifndef config
   endif
 endif
 
+ifndef single
+  single := 0
+endif
+
 ifeq ($(config), minpool)
+  ifeq ($(single), 1)
+    CORES := singlecore
+    NUM_CORES := 1
+  endif
   CORES := multicore
   NUM_CORES := 16
-else
-  CORES := singlecore
-  NUM_CORES := 1
+else 
+  CORES := hardcore
+  NUM_CORES := 256
 endif
 
 ifeq ($(XPULP), 0)
@@ -31,14 +39,17 @@ else
   MODE := xpulp
 endif
 
-ifndef TEST
-  TEST := convolution
+ifndef app
+  app := convolution
 endif
 
 APPS_DIR := $(BENCHMARK_DIR)/multicore/apps/baseline/
 APPS := $(patsubst $(APPS_DIR)%.dump,%,$(shell find $(APPS_DIR) -name "*.dump"))
 
-TESTS := convolution matmul_i8 matmul_i16 matmul_i32
+TESTS := conv2d_i8 convolution matmul_i8 matmul_i16 matmul_i32
+
+rtl_dir := $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)
+banshee_dir := $(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)
 
 unexport CC
 unexport CXX
@@ -65,17 +76,17 @@ all-rtl-simulation: apps simcvcs $(addprefix rtl-,$(TESTS))
 
 $(addprefix rtl-,$(TESTS)):
 	app=$(patsubst rtl-%,%,$@) config=$(config) make -C $(MEMPOOL_DIR)/hardware benchmark \
-	| tee $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/$(patsubst rtl-%,%,$@)
+	| tee $(rtl_dir)/$(patsubst rtl-%,%,$@)
 #	extract data
-	grep "[DUMP].*: 0x002 =    .*" $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/$(patsubst rtl-%,%,$@) \
+	grep "[DUMP].*: 0x002 =    .*" $(rtl_dir)/$(patsubst rtl-%,%,$@) \
 	| tr -s " :" "," | cut -d "," -f 2,5 | sort -n > \
-	$(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/res_$(patsubst rtl-%,%,$@).csv
+	$(rtl_dir)/res_$(patsubst rtl-%,%,$@).csv
+	cp $(MEMPOOL_DIR)/hardware/build/traces/results.csv $(rtl_dir)/results_$(patsubst rtl-%,%,$@).csv
+	cp $(MEMPOOL_DIR)/hardware/build/traces/average $(rtl_dir)/avg_$(patsubst rtl-%,%,$@)
 
 
-rtl-simulation: apps simcvcs
-#	cp -rf $(BENCHMARK_DIR)/$(CORES)/apps/$(MODE)/* $(MEMPOOL_DIR)/software/bin
-	app=$(TEST) config=$(config) make -C $(MEMPOOL_DIR)/hardware benchmark \
-	| tee $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/$(TEST)
+rtl-simulation: apps
+	make rtl-$(app)
 
 all-banshee-simulation: apps $(addprefix banshee-,$(TESTS))
 
@@ -84,32 +95,26 @@ $(addprefix banshee-,$(TESTS)):
 	SNITCH_LOG=banshee::engine=TRACE cargo run -- \
 	--num-cores $(NUM_CORES) --num-clusters 1 --configuration config/mempool.yaml \
 	$(MEMPOOL_DIR)/software/bin/$(patsubst banshee-%,%,$@) --latency &> \
-	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(patsubst banshee-%,%,$@)
+	$(banshee_dir)/$(patsubst banshee-%,%,$@)
 #	extract relevant data
 	grep "TRACE banshee::engine > Core .*: Write CSR Frm = .*" \
-	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(patsubst banshee-%,%,$@) \
+	$(banshee_dir)/$(patsubst banshee-%,%,$@) \
 	| sort | cut -d " " -f 6,11 | tr ":" "," > \
-	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/res_$(patsubst banshee-%,%,$@).csv
+	$(banshee_dir)/res_$(patsubst banshee-%,%,$@).csv
 
 
-banshee-simulation: apps simcvcs
-	# cp -rf $(BENCHMARK_DIR)/$(CORES)/apps/$(MODE)/* $(MEMPOOL_DIR)/software/bin
-	cd $(BANSHEE_DIR) && \
-	SNITCH_LOG=banshee::engine=TRACE cargo run -- \
-	--num-cores $(NUM_CORES) --num-clusters 1 --configuration config/mempool.yaml \
-	$(MEMPOOL_DIR)/software/bin/$(TEST) --latency &> $(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(TEST)
-
-
+banshee-simulation: apps
+	make banshee-$(app)
 
 $(addprefix get-,$(TESTS)):
 #	extract data
-	grep "[DUMP].*: 0x002 =    .*" $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/$(patsubst get-%,%,$@) \
+	grep "[DUMP].*: 0x002 =    .*" $(rtl_dir)/$(patsubst get-%,%,$@) \
 	| tr -s " :" "," | cut -d "," -f 2,5 | sort -n > \
-	$(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/res_$(patsubst get-%,%,$@).csv
+	$(rtl_dir)/res_$(patsubst get-%,%,$@).csv
 	grep "TRACE banshee::engine > Core .*: Write CSR Frm = .*" \
-	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(patsubst get-%,%,$@) \
+	$(banshee_dir)/$(patsubst get-%,%,$@) \
 	| sort | cut -d " " -f 6,11 | tr ":" "," > \
-	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/res_$(patsubst get-%,%,$@).csv
+	$(banshee_dir)/res_$(patsubst get-%,%,$@).csv
 
 get-results: $(addprefix get-,$(TESTS))
 
