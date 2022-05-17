@@ -69,7 +69,7 @@ $(addprefix rtl-,$(TESTS)):
 #	extract data
 	grep "[DUMP].*: 0x002 =    .*" $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/$(patsubst rtl-%,%,$@) \
 	| tr -s " :" "," | cut -d "," -f 2,5 | sort -n > \
-	$(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/res_$(patsubst rtl-%,%,$@)
+	$(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/res_$(patsubst rtl-%,%,$@).csv
 
 
 rtl-simulation: apps simcvcs
@@ -89,7 +89,7 @@ $(addprefix banshee-,$(TESTS)):
 	grep "TRACE banshee::engine > Core .*: Write CSR Frm = .*" \
 	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(patsubst banshee-%,%,$@) \
 	| sort | cut -d " " -f 6,11 | tr ":" "," > \
-	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/res_$(patsubst banshee-%,%,$@)
+	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/res_$(patsubst banshee-%,%,$@).csv
 
 
 banshee-simulation: apps simcvcs
@@ -105,11 +105,11 @@ $(addprefix get-,$(TESTS)):
 #	extract data
 	grep "[DUMP].*: 0x002 =    .*" $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/$(patsubst get-%,%,$@) \
 	| tr -s " :" "," | cut -d "," -f 2,5 | sort -n > \
-	$(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/res_$(patsubst get-%,%,$@)
+	$(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)/res_$(patsubst get-%,%,$@).csv
 	grep "TRACE banshee::engine > Core .*: Write CSR Frm = .*" \
 	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/$(patsubst get-%,%,$@) \
 	| sort | cut -d " " -f 6,11 | tr ":" "," > \
-	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/res_$(patsubst get-%,%,$@)
+	$(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)/res_$(patsubst get-%,%,$@).csv
 
 get-results: $(addprefix get-,$(TESTS))
 
