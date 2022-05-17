@@ -24,6 +24,10 @@ volatile int32_t out[M * N] __attribute__((section(".l1_prio")));
 volatile uint8_t kernel[KERNEL_N * KERNEL_N] __attribute__((section(".l1")));
 volatile int error __attribute__((section(".l1")));
 
+// benchmarking
+dump(time, 2);
+dump(instret, 3);
+
 int main() {
   uint32_t core_id = mempool_get_core_id();
   uint32_t num_cores = mempool_get_core_count();
@@ -68,11 +72,17 @@ int main() {
 #endif
 
     mempool_start_benchmark();
+    uint32_t time = mempool_get_timer();
+    uint32_t ins = mempool_get_instret();
 #ifdef __XPULPIMG
     conv2d_3x3_unrolled2_i8_xpulpv2(in, out, M, N, kernel);
 #else
     conv2d_3x3_unrolled2_i8_rv32im(in, N, M, kernel, out);
 #endif
+    time = mempool_get_timer() - time;
+    dump_time(time);
+    ins = mempool_get_instret() - ins;
+    dump_instret(ins);
     mempool_stop_benchmark();
 
 #ifdef VERBOSE_OUT

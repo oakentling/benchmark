@@ -27,6 +27,7 @@ int volatile error __attribute__((section(".l1")));
 
 // benchmarking
 dump(time, 2);
+dump(instret, 3);
 
 void init_matrix(int8_t *matrix, uint32_t num_rows, uint32_t num_columns,
                  int8_t a, int8_t b, int8_t c, uint32_t core_id,
@@ -106,6 +107,7 @@ int test_matrix_multiplication(int8_t *__restrict__ A, int8_t *__restrict__ B,
   // Execute function to test.
   mempool_start_benchmark();
   uint32_t time = mempool_get_timer();
+  uint32_t ins = mempool_get_instret();
 
 #ifdef __XPULPIMG
   matmul_unrolled_2x4_pincr_asm_parallel_i8_xpulpv2(A, B, C, M, N, P, core_id,
@@ -118,6 +120,8 @@ int test_matrix_multiplication(int8_t *__restrict__ A, int8_t *__restrict__ B,
 
   time = mempool_get_timer() - time;
   dump_time(time);
+  ins = mempool_get_instret() - ins;
+  dump_instret(ins);
   mempool_stop_benchmark();
   // Wait at barrier befor checking
   mempool_barrier(num_cores);

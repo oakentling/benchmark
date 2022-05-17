@@ -28,7 +28,7 @@ volatile int error __attribute__((section(".l1")));
 
 // benchmarking
 dump(time, 2);
-// dump(end, 3);
+dump(instret, 3);
 
 int main() {
   uint32_t core_id = mempool_get_core_id();
@@ -90,6 +90,7 @@ int main() {
     mempool_barrier(num_cores);
     mempool_start_benchmark();
     uint32_t time = mempool_get_timer();
+    uint32_t ins = mempool_get_instret();
     // dump_start(time);
     switch (i) {
     case 0:
@@ -116,6 +117,8 @@ int main() {
     }
     time = mempool_get_timer() - time;
     dump_time(time);
+    ins = mempool_get_instret() - ins;
+    dump_instret(ins);
     mempool_stop_benchmark();
     // Wait at barrier befor checking
     mempool_barrier(num_cores);
