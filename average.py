@@ -16,7 +16,8 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
-rows = [['benchmark', 'average cycles']]
+cycle_rows = [['benchmark', 'average cycles']]
+instret_rows = [['benchmark', 'average instret']]
 
 os.chdir(args.folder)
 path = os.getcwd()
@@ -24,18 +25,30 @@ print(path)
 walk = os.walk(path)
 for path, subdirs, files in walk:
     for name in files:
-        if name != "results.csv":
+        if "cycle" in name or "instret" in name:
+            n, _ = os.path.splitext(name)
+            n = n.split('-')
+            type_name = n[1]
+            app = n[2]
+            p = path.split('/')
+            benchmark = '/'.join(p[5:8]) + '/' + app
             cur_path = os.path.join(path, name)
             if cur_path.endswith(ext):
-                print(cur_path)
-                csvread = pd.read_csv(cur_path, header=0, names=['core','cycles'])
-                column = csvread['cycles'].to_numpy()
+                print(benchmark)
+                csvread = pd.read_csv(cur_path, names=['core',type_name])
+                column = csvread[type_name].to_numpy()
                 avg = np.average(column).astype(int)
                 print("avg: ", avg)
-                rows.append([cur_path, avg])
+                if type_name == "cycle":
+                    cycle_rows.append([benchmark, avg])
+                elif type_name == "instret":
+                    instret_rows.append([benchmark, avg])
+                    
+# Combine 2D arrays
+cycles = pd.DataFrame(cycle_rows[1:], columns=cycle_rows[0])
+instret = pd.DataFrame(instret_rows[1:], columns=instret_rows[0])
+data = pd.merge(cycles, instret, on=['benchmark'])
+print(data)
             
-# Prepare csv writer
-filename = "results.csv"
-with open(filename, 'w') as csvfile:
-    csvwriter = csv.writer(csvfile)
-    csvwriter.writerows(rows)
+# Write to csv
+data.to_csv('results.csv', index=False)
