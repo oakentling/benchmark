@@ -66,7 +66,7 @@ apps:
 .PHONY: simcvcs
 simcvcs:
 	make -C $(MEMPOOL_DIR)/hardware clean
-	config=$(config) app=hello_world make -C $(MEMPOOL_DIR)/hardware simcvcs
+	config=$(config) app=quick_start make -C $(MEMPOOL_DIR)/hardware simcvcs
 
 simulation: all-rtl-simulation all-banshee-simulation
 
@@ -78,11 +78,8 @@ $(addprefix rtl-,$(TESTS)):
 	app=$(patsubst rtl-%,%,$@) config=$(config) make -C $(MEMPOOL_DIR)/hardware benchmark \
 	| tee $(rtl_dir)/$(patsubst rtl-%,%,$@)
 #	extract data
-	grep "[DUMP].*: 0x002 =    .*" $(rtl_dir)/$(patsubst rtl-%,%,$@) \
-	| tr -s " :" "," | cut -d "," -f 2,5 | sort -n > \
-	$(rtl_dir)/res_$(patsubst rtl-%,%,$@).csv
 	cp $(MEMPOOL_DIR)/hardware/build/traces/results.csv $(rtl_dir)/results_$(patsubst rtl-%,%,$@).csv
-	cp $(MEMPOOL_DIR)/hardware/build/traces/average $(rtl_dir)/avg_$(patsubst rtl-%,%,$@)
+	cp $(MEMPOOL_DIR)/hardware/build/average $(rtl_dir)/avg_$(patsubst rtl-%,%,$@)
 
 
 rtl-simulation: apps
@@ -96,33 +93,41 @@ $(addprefix banshee-,$(TESTS)):
 	--num-cores $(NUM_CORES) --num-clusters 1 --configuration config/mempool.yaml \
 	$(MEMPOOL_DIR)/software/bin/$(patsubst banshee-%,%,$@) --latency &> \
 	$(banshee_dir)/$(patsubst banshee-%,%,$@)
-#	extract relevant data
-	grep "TRACE banshee::engine > Core .*: Write CSR Frm = .*" \
-	$(banshee_dir)/$(patsubst banshee-%,%,$@) \
-	| sort | cut -d " " -f 6,11 | tr ":" "," > \
-	$(banshee_dir)/res_$(patsubst banshee-%,%,$@).csv
-
 
 banshee-simulation: apps
 	make banshee-$(app)
 
-$(addprefix get-,$(TESTS)):
+$(addprefix get-cycle-,$(TESTS)):
 #	extract data
-	grep "[DUMP].*: 0x002 =    .*" $(rtl_dir)/$(patsubst get-%,%,$@) \
+	grep "[DUMP].*: 0x002 =    .*" $(rtl_dir)/$(patsubst get-cycle-%,%,$@) \
 	| tr -s " :" "," | cut -d "," -f 2,5 | sort -n > \
-	$(rtl_dir)/res_$(patsubst get-%,%,$@).csv
+	$(rtl_dir)/res-cycle-$(patsubst get-cycle-%,%,$@).csv
 	grep "TRACE banshee::engine > Core .*: Write CSR Frm = .*" \
-	$(banshee_dir)/$(patsubst get-%,%,$@) \
+	$(banshee_dir)/$(patsubst get-cycle-%,%,$@) \
 	| sort | cut -d " " -f 6,11 | tr ":" "," > \
-	$(banshee_dir)/res_$(patsubst get-%,%,$@).csv
+	$(banshee_dir)/res-cycle-$(patsubst get-cycle-%,%,$@).csv
 
-get-results: $(addprefix get-,$(TESTS))
+$(addprefix get-instret-,$(TESTS)):
+#	extract data
+	grep "[DUMP].*: 0x003 =    .*" $(rtl_dir)/$(patsubst get-instret-%,%,$@) \
+	| tr -s " :" "," | cut -d "," -f 2,5 | sort -n > \
+	$(rtl_dir)/res-instret-$(patsubst get-instret-%,%,$@).csv
+	grep "TRACE banshee::engine > Core .*: Write CSR Fcsr = .*" \
+	$(banshee_dir)/$(patsubst get-instret-%,%,$@) \
+	| sort | cut -d " " -f 6,11 | tr ":" "," > \
+	$(banshee_dir)/res-instret-$(patsubst get-instret-%,%,$@).csv
+
+get-cycle-results: $(addprefix get-cycle-,$(TESTS))
+
+get-instret-results: $(addprefix get-instret-,$(TESTS))
+
+get-results: get-cycle-results get-instret-results
 
 
 .PHONY: clean
 clean:
 # clean old results out
-	rm -f {multicore,singlecore}/{apps,banshee-results,rtl-results}/{baseline,xpulp}/*
+	rm -f {hardcore,multicore,singlecore}/{apps,banshee-results,rtl-results}/{baseline,xpulp}/*
 # clean Mempool
 	$(MAKE) -C $(MEMPOOL_DIR)/hardware clean
 	$(MAKE) -C $(MEMPOOL_DIR)/software clean
