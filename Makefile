@@ -94,6 +94,16 @@ $(addprefix banshee-,$(TESTS)):
 	$(MEMPOOL_DIR)/software/bin/$(patsubst banshee-%,%,$@) --latency &> \
 	$(banshee_dir)/$(patsubst banshee-%,%,$@)
 
+
+all-banshee-post-simulation: apps $(addprefix banshee-post-,$(TESTS))
+
+$(addprefix banshee-post-,$(TESTS)):
+	cd $(BANSHEE_DIR) && \
+	SNITCH_LOG=banshee::engine=TRACE cargo run -- \
+	--num-cores $(NUM_CORES) --num-clusters 1 --configuration config/mempool.yaml \
+	$(MEMPOOL_DIR)/software/bin/$(patsubst banshee-post-%,%,$@) --latency &> \
+	$(banshee_dir)/$(patsubst banshee-%,%,$@)
+
 banshee-simulation: apps
 	make banshee-$(app)
 
@@ -122,6 +132,27 @@ get-cycle-results: $(addprefix get-cycle-,$(TESTS))
 get-instret-results: $(addprefix get-instret-,$(TESTS))
 
 get-results: get-cycle-results get-instret-results
+
+
+$(addprefix get-cycle-post-,$(TESTS)):
+#	extract data
+	grep "TRACE banshee::engine > Core .*: Write CSR Frm = .*" \
+	$(banshee_dir)/$(patsubst get-cycle-%,%,$@) \
+	| sort | cut -d " " -f 6,11 | tr ":" "," > \
+	$(banshee_dir)/res-cycle-$(patsubst get-cycle-post-%,%,$@)-post.csv
+
+$(addprefix get-instret-post-,$(TESTS)):
+#	extract data
+	grep "TRACE banshee::engine > Core .*: Write CSR Fcsr = .*" \
+	$(banshee_dir)/$(patsubst get-instret-%,%,$@) \
+	| sort | cut -d " " -f 6,11 | tr ":" "," > \
+	$(banshee_dir)/res-instret-$(patsubst get-instret-post-%,%,$@)-post.csv
+
+get-cycle-results-post: $(addprefix get-cycle-post-,$(TESTS))
+
+get-instret-results-post: $(addprefix get-instret-post-,$(TESTS))
+
+get-results-post: get-cycle-results-post get-instret-results-post
 
 
 .PHONY: clean

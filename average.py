@@ -16,8 +16,8 @@ parser.add_argument(
 )
 args = parser.parse_args()
 
-cycle_rows = [['benchmark', 'average cycles']]
-instret_rows = [['benchmark', 'average instret']]
+cycle_rows = [['config', 'sim', 'variation', 'app', 'post', 'average cycles']]
+instret_rows = [['config', 'sim', 'variation', 'app', 'post', 'average instret']]
 
 os.chdir(args.folder)
 path = os.getcwd()
@@ -28,26 +28,37 @@ for path, subdirs, files in walk:
         if "cycle" in name or "instret" in name:
             n, _ = os.path.splitext(name)
             n = n.split('-')
-            type_name = n[1]
+            print(n)
+            var = n[1]
             app = n[2]
+            post = 0
+            if 3 < len(n):
+                post = 1
+                app = app + "-post"
+            print("app: ", app, "post: ", post)
             p = path.split('/')
-            benchmark = '/'.join(p[5:8]) + '/' + app
+            config = p[5]
+            sim = p[6]
+            variation = p[7]
             cur_path = os.path.join(path, name)
+            print("app: ", app)
             if cur_path.endswith(ext):
-                print(benchmark)
-                csvread = pd.read_csv(cur_path, names=['core',type_name])
-                column = csvread[type_name].to_numpy()
+                print(cur_path)
+                print('/'.join([config, sim, variation, app]))
+                csvread = pd.read_csv(cur_path, names=['core',var])
+                column = csvread[var].to_numpy()
                 avg = np.average(column).astype(int)
                 print("avg: ", avg)
-                if type_name == "cycle":
-                    cycle_rows.append([benchmark, avg])
-                elif type_name == "instret":
-                    instret_rows.append([benchmark, avg])
+                if var == "cycle":
+                    cycle_rows.append([config, sim, variation, app, post, avg])
+                elif var == "instret":
+                    instret_rows.append([config, sim, variation, app, post, avg])
                     
 # Combine 2D arrays
+print(cycle_rows)
 cycles = pd.DataFrame(cycle_rows[1:], columns=cycle_rows[0])
 instret = pd.DataFrame(instret_rows[1:], columns=instret_rows[0])
-data = pd.merge(cycles, instret, on=['benchmark'])
+data = pd.merge(cycles, instret, on=['config', 'sim', 'variation', 'app', 'post'])
 print(data)
             
 # Write to csv
