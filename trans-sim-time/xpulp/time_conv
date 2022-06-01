@@ -1,0 +1,2500 @@
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.628 s, 602.225 kinst/s
+
+real	0m5.632s
+user	0m6.428s
+sys	0m2.941s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.557 s, 629.774 kinst/s
+
+real	0m5.513s
+user	0m6.224s
+sys	0m2.786s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.480 s, 395.311 kinst/s
+
+real	0m6.484s
+user	0m7.284s
+sys	0m3.407s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.24s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.992 s, 492.296 kinst/s
+
+real	0m6.111s
+user	0m6.413s
+sys	0m1.973s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.932 s, 507.508 kinst/s
+
+real	0m5.866s
+user	0m6.474s
+sys	0m2.322s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.932 s, 334.390 kinst/s
+
+real	0m6.874s
+user	0m8.037s
+sys	0m4.465s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.636 s, 269.609 kinst/s
+
+real	0m7.594s
+user	0m8.122s
+sys	0m2.647s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.137 s, 312.487 kinst/s
+
+real	0m7.048s
+user	0m8.015s
+sys	0m3.724s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.476 s, 664.203 kinst/s
+
+real	0m5.521s
+user	0m6.052s
+sys	0m2.270s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.158 s, 454.316 kinst/s
+
+real	0m6.120s
+user	0m6.910s
+sys	0m3.535s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.690 s, 364.452 kinst/s
+
+real	0m6.652s
+user	0m7.267s
+sys	0m2.523s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.930 s, 249.476 kinst/s
+
+real	0m7.849s
+user	0m8.764s
+sys	0m3.558s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.088 s, 239.813 kinst/s
+
+real	0m8.111s
+user	0m9.498s
+sys	0m4.977s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.24s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.300 s, 754.089 kinst/s
+
+real	0m5.428s
+user	0m5.758s
+sys	0m2.022s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.732 s, 565.976 kinst/s
+
+real	0m5.674s
+user	0m6.208s
+sys	0m2.069s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 564.628 ms, 1.736 Minst/s
+
+real	0m4.550s
+user	0m5.016s
+sys	0m1.946s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.383 s, 132.787 kinst/s
+
+real	0m11.348s
+user	0m12.338s
+sys	0m4.865s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.145 s, 236.552 kinst/s
+
+real	0m8.132s
+user	0m8.703s
+sys	0m2.666s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 861.534 ms, 1.138 Minst/s
+
+real	0m4.819s
+user	0m5.303s
+sys	0m1.988s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.681 s, 172.576 kinst/s
+
+real	0m9.627s
+user	0m10.239s
+sys	0m2.916s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 378.013 ms, 2.594 Minst/s
+
+real	0m4.359s
+user	0m4.835s
+sys	0m2.057s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.364 s, 414.700 kinst/s
+
+real	0m6.389s
+user	0m7.009s
+sys	0m2.533s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.25s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.225 s, 303.989 kinst/s
+
+real	0m7.324s
+user	0m7.755s
+sys	0m2.519s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.526 s, 150.226 kinst/s
+
+real	0m10.487s
+user	0m11.046s
+sys	0m3.022s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.890 s, 339.272 kinst/s
+
+real	0m6.937s
+user	0m7.362s
+sys	0m2.292s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 9.544 s, 102.727 kinst/s
+
+real	0m13.499s
+user	0m14.498s
+sys	0m5.109s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.987 s, 196.574 kinst/s
+
+real	0m8.940s
+user	0m9.519s
+sys	0m3.073s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.347 s, 183.342 kinst/s
+
+real	0m9.340s
+user	0m9.867s
+sys	0m3.062s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.524 s, 278.189 kinst/s
+
+real	0m7.487s
+user	0m8.098s
+sys	0m2.584s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.25s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.356 s, 722.928 kinst/s
+
+real	0m5.499s
+user	0m5.765s
+sys	0m1.996s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.180 s, 189.266 kinst/s
+
+real	0m9.119s
+user	0m10.295s
+sys	0m5.173s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.179 s, 158.676 kinst/s
+
+real	0m10.117s
+user	0m11.249s
+sys	0m4.944s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.284 s, 429.323 kinst/s
+
+real	0m6.333s
+user	0m6.879s
+sys	0m2.546s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.214 s, 188.046 kinst/s
+
+real	0m9.132s
+user	0m9.768s
+sys	0m3.225s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.056 s, 193.904 kinst/s
+
+real	0m9.149s
+user	0m9.720s
+sys	0m3.004s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.591 s, 616.182 kinst/s
+
+real	0m5.565s
+user	0m6.318s
+sys	0m2.781s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.194 s, 821.173 kinst/s
+
+real	0m5.163s
+user	0m5.674s
+sys	0m2.039s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.24s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.489 s, 151.087 kinst/s
+
+real	0m10.670s
+user	0m11.844s
+sys	0m5.605s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 11.139 s, 88.015 kinst/s
+
+real	0m15.074s
+user	0m15.710s
+sys	0m3.881s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.067 s, 474.293 kinst/s
+
+real	0m6.019s
+user	0m6.671s
+sys	0m2.420s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.299 s, 185.009 kinst/s
+
+real	0m9.218s
+user	0m10.053s
+sys	0m4.205s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.09s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 740.031 ms, 1.325 Minst/s
+
+real	0m4.682s
+user	0m5.391s
+sys	0m2.624s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 811.715 ms, 1.208 Minst/s
+
+real	0m4.806s
+user	0m5.349s
+sys	0m2.049s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.729 s, 262.924 kinst/s
+
+real	0m7.687s
+user	0m8.483s
+sys	0m3.520s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.328 s, 294.591 kinst/s
+
+real	0m7.340s
+user	0m7.968s
+sys	0m2.658s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.23s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 435.018 ms, 2.254 Minst/s
+
+real	0m4.561s
+user	0m5.054s
+sys	0m2.317s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.610 s, 128.839 kinst/s
+
+real	0m11.579s
+user	0m12.095s
+sys	0m3.104s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 14.910 s, 65.755 kinst/s
+
+real	0m18.877s
+user	0m19.309s
+sys	0m4.342s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 17.474 s, 56.105 kinst/s
+
+real	0m21.450s
+user	0m22.640s
+sys	0m6.585s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.411 s, 152.932 kinst/s
+
+real	0m10.370s
+user	0m11.403s
+sys	0m4.860s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.25s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 883.385 ms, 1.110 Minst/s
+
+real	0m5.049s
+user	0m5.738s
+sys	0m2.930s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.701 s, 363.014 kinst/s
+
+real	0m6.646s
+user	0m7.215s
+sys	0m2.576s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.620 s, 374.135 kinst/s
+
+real	0m6.635s
+user	0m7.243s
+sys	0m2.631s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 967.417 ms, 1.013 Minst/s
+
+real	0m4.959s
+user	0m5.912s
+sys	0m3.294s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.210 s, 188.184 kinst/s
+
+real	0m9.145s
+user	0m10.062s
+sys	0m4.041s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.128 s, 237.480 kinst/s
+
+real	0m8.086s
+user	0m8.946s
+sys	0m3.705s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.595 s, 175.218 kinst/s
+
+real	0m9.579s
+user	0m10.507s
+sys	0m4.184s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.893 s, 517.897 kinst/s
+
+real	0m5.835s
+user	0m6.720s
+sys	0m3.398s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 396.829 ms, 2.471 Minst/s
+
+real	0m4.305s
+user	0m4.905s
+sys	0m1.997s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.25s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.804 s, 257.731 kinst/s
+
+real	0m7.940s
+user	0m8.443s
+sys	0m2.936s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.630 s, 601.592 kinst/s
+
+real	0m5.595s
+user	0m6.035s
+sys	0m1.928s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.822 s, 538.192 kinst/s
+
+real	0m5.710s
+user	0m6.254s
+sys	0m2.246s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.308 s, 296.373 kinst/s
+
+real	0m7.240s
+user	0m7.745s
+sys	0m2.308s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 403.899 ms, 2.427 Minst/s
+
+real	0m4.341s
+user	0m5.011s
+sys	0m2.044s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.304 s, 751.924 kinst/s
+
+real	0m5.281s
+user	0m5.697s
+sys	0m1.851s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.612 s, 375.367 kinst/s
+
+real	0m6.563s
+user	0m7.366s
+sys	0m3.508s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.101 s, 890.827 kinst/s
+
+real	0m5.008s
+user	0m5.629s
+sys	0m2.297s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.390 s, 289.186 kinst/s
+
+real	0m7.351s
+user	0m8.464s
+sys	0m4.206s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.467 s, 131.301 kinst/s
+
+real	0m11.454s
+user	0m12.408s
+sys	0m4.842s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.24s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.736 s, 262.400 kinst/s
+
+real	0m7.806s
+user	0m8.314s
+sys	0m2.889s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.728 s, 359.450 kinst/s
+
+real	0m6.730s
+user	0m7.703s
+sys	0m3.491s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.926 s, 141.546 kinst/s
+
+real	0m10.857s
+user	0m11.556s
+sys	0m3.291s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.110 s, 160.471 kinst/s
+
+real	0m10.065s
+user	0m10.787s
+sys	0m3.682s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.712 s, 146.077 kinst/s
+
+real	0m10.668s
+user	0m11.701s
+sys	0m4.664s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.298 s, 426.619 kinst/s
+
+real	0m6.242s
+user	0m7.068s
+sys	0m3.338s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 8.178 s, 119.890 kinst/s
+
+real	0m12.196s
+user	0m12.780s
+sys	0m3.243s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.22s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.162 s, 136.885 kinst/s
+
+real	0m11.264s
+user	0m12.094s
+sys	0m4.681s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.354 s, 292.288 kinst/s
+
+real	0m7.337s
+user	0m8.257s
+sys	0m3.938s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 935.129 ms, 1.048 Minst/s
+
+real	0m4.883s
+user	0m5.609s
+sys	0m2.790s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 9.972 s, 98.315 kinst/s
+
+real	0m13.920s
+user	0m15.309s
+sys	0m6.097s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.129 s, 460.569 kinst/s
+
+real	0m6.090s
+user	0m6.536s
+sys	0m2.161s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 752.672 ms, 1.303 Minst/s
+
+real	0m4.738s
+user	0m5.287s
+sys	0m1.976s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.904 s, 337.550 kinst/s
+
+real	0m6.914s
+user	0m7.566s
+sys	0m2.609s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.025 s, 324.053 kinst/s
+
+real	0m7.005s
+user	0m7.965s
+sys	0m3.800s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.25s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.383 s, 153.596 kinst/s
+
+real	0m10.498s
+user	0m11.600s
+sys	0m5.151s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.136 s, 459.031 kinst/s
+
+real	0m6.113s
+user	0m6.717s
+sys	0m2.469s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.870 s, 341.575 kinst/s
+
+real	0m6.853s
+user	0m7.301s
+sys	0m2.250s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.125 s, 313.744 kinst/s
+
+real	0m7.109s
+user	0m8.441s
+sys	0m4.796s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.231 s, 796.357 kinst/s
+
+real	0m5.201s
+user	0m5.950s
+sys	0m2.606s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.760 s, 260.770 kinst/s
+
+real	0m7.711s
+user	0m8.224s
+sys	0m2.460s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 9.110 s, 107.622 kinst/s
+
+real	0m13.082s
+user	0m14.855s
+sys	0m7.356s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 749.081 ms, 1.309 Minst/s
+
+real	0m4.713s
+user	0m5.355s
+sys	0m2.555s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.23s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.332 s, 154.827 kinst/s
+
+real	0m10.439s
+user	0m10.880s
+sys	0m3.381s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 813.224 ms, 1.206 Minst/s
+
+real	0m4.789s
+user	0m5.235s
+sys	0m1.907s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 9.826 s, 99.774 kinst/s
+
+real	0m13.840s
+user	0m15.176s
+sys	0m5.796s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 8.617 s, 113.770 kinst/s
+
+real	0m12.556s
+user	0m13.481s
+sys	0m4.745s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.075 s, 472.538 kinst/s
+
+real	0m6.088s
+user	0m6.693s
+sys	0m2.564s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.862 s, 167.254 kinst/s
+
+real	0m9.807s
+user	0m10.238s
+sys	0m2.670s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.723 s, 569.157 kinst/s
+
+real	0m5.678s
+user	0m6.561s
+sys	0m3.562s
+warning: unused variable: `fseq`
+   --> src/tran.rs:922:49
+    |
+922 |     unsafe fn emit(&self, inst_index: &mut u32, fseq: &mut SequencerContext) -> Result<()> {
+    |                                                 ^^^^ help: if this is intentional, prefix it with an underscore: `_fseq`
+    |
+    = note: `#[warn(unused_variables)]` on by default
+
+warning: unused variable: `is_tcdm`
+    --> src/tran.rs:8712:22
+     |
+8712 |                 let (is_tcdm, _tcdm_ptr) = self.emit_tcdm_check(access.1);
+     |                      ^^^^^^^ help: if this is intentional, prefix it with an underscore: `_is_tcdm`
+
+warning: `banshee` (bin "banshee") generated 2 warnings
+    Finished dev [unoptimized + debuginfo] target(s) in 0.23s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.288 s, 185.416 kinst/s
+
+real	0m9.348s
+user	0m9.711s
+sys	0m2.966s

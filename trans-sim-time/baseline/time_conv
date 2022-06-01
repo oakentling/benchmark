@@ -1,0 +1,1000 @@
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.216 s, 304.809 kinst/s
+
+real	0m7.357s
+user	0m8.332s
+sys	0m4.270s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.480 s, 178.892 kinst/s
+
+real	0m9.527s
+user	0m10.313s
+sys	0m3.534s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.857 s, 527.996 kinst/s
+
+real	0m5.892s
+user	0m6.464s
+sys	0m2.426s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.389 s, 132.687 kinst/s
+
+real	0m11.448s
+user	0m13.682s
+sys	0m8.563s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.839 s, 345.311 kinst/s
+
+real	0m7.034s
+user	0m7.696s
+sys	0m2.686s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.845 s, 344.603 kinst/s
+
+real	0m6.897s
+user	0m7.323s
+sys	0m2.015s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.795 s, 546.174 kinst/s
+
+real	0m5.872s
+user	0m6.698s
+sys	0m2.912s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.241 s, 302.525 kinst/s
+
+real	0m7.271s
+user	0m8.064s
+sys	0m3.252s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.25s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.215 s, 157.748 kinst/s
+
+real	0m10.318s
+user	0m12.157s
+sys	0m7.457s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.933 s, 165.257 kinst/s
+
+real	0m10.017s
+user	0m10.657s
+sys	0m3.499s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.217 s, 442.185 kinst/s
+
+real	0m6.259s
+user	0m7.037s
+sys	0m3.160s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.09s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.028 s, 162.648 kinst/s
+
+real	0m10.032s
+user	0m10.926s
+sys	0m3.923s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 921.031 ms, 1.064 Minst/s
+
+real	0m4.893s
+user	0m5.394s
+sys	0m2.190s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.477 s, 131.124 kinst/s
+
+real	0m11.528s
+user	0m12.756s
+sys	0m5.746s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.022 s, 139.622 kinst/s
+
+real	0m11.013s
+user	0m12.146s
+sys	0m4.854s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.263 s, 156.548 kinst/s
+
+real	0m10.452s
+user	0m11.748s
+sys	0m5.812s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 759.399 ms, 1.291 Minst/s
+
+real	0m4.791s
+user	0m5.561s
+sys	0m2.794s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.064 s, 319.966 kinst/s
+
+real	0m7.068s
+user	0m7.544s
+sys	0m2.134s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.455 s, 399.391 kinst/s
+
+real	0m6.514s
+user	0m7.501s
+sys	0m3.820s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.619 s, 374.384 kinst/s
+
+real	0m6.676s
+user	0m7.258s
+sys	0m2.706s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.040 s, 942.781 kinst/s
+
+real	0m5.114s
+user	0m6.057s
+sys	0m3.460s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 514.442 ms, 1.906 Minst/s
+
+real	0m4.599s
+user	0m5.295s
+sys	0m2.701s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 8.465 s, 115.816 kinst/s
+
+real	0m12.450s
+user	0m13.005s
+sys	0m3.458s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.878 s, 521.963 kinst/s
+
+real	0m5.903s
+user	0m6.382s
+sys	0m2.329s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.24s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.274 s, 769.570 kinst/s
+
+real	0m5.508s
+user	0m6.164s
+sys	0m2.844s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.397 s, 132.533 kinst/s
+
+real	0m11.437s
+user	0m12.434s
+sys	0m4.783s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.547 s, 215.638 kinst/s
+
+real	0m8.572s
+user	0m9.208s
+sys	0m3.103s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.984 s, 196.723 kinst/s
+
+real	0m9.020s
+user	0m9.700s
+sys	0m3.234s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.298 s, 297.266 kinst/s
+
+real	0m7.330s
+user	0m7.978s
+sys	0m2.979s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.114 s, 191.696 kinst/s
+
+real	0m9.204s
+user	0m9.912s
+sys	0m2.911s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 10.836 s, 90.476 kinst/s
+
+real	0m14.864s
+user	0m15.745s
+sys	0m4.947s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.26s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.338 s, 419.376 kinst/s
+
+real	0m6.523s
+user	0m6.884s
+sys	0m2.253s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.604 s, 212.924 kinst/s
+
+real	0m8.672s
+user	0m9.603s
+sys	0m4.008s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.216 s, 304.876 kinst/s
+
+real	0m7.240s
+user	0m7.848s
+sys	0m2.784s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.189 s, 824.378 kinst/s
+
+real	0m5.163s
+user	0m5.872s
+sys	0m2.314s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.382 s, 289.880 kinst/s
+
+real	0m7.447s
+user	0m8.126s
+sys	0m2.825s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.876 s, 522.609 kinst/s
+
+real	0m5.901s
+user	0m6.837s
+sys	0m3.317s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.339 s, 419.112 kinst/s
+
+real	0m6.310s
+user	0m6.805s
+sys	0m2.050s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.448 s, 400.452 kinst/s
+
+real	0m6.540s
+user	0m7.542s
+sys	0m3.888s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.202 s, 815.746 kinst/s
+
+real	0m5.224s
+user	0m5.807s
+sys	0m2.204s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.739 s, 563.690 kinst/s
+
+real	0m5.703s
+user	0m6.229s
+sys	0m2.300s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.25s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.946 s, 123.380 kinst/s
+
+real	0m12.071s
+user	0m13.505s
+sys	0m6.652s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.690 s, 364.477 kinst/s
+
+real	0m6.657s
+user	0m7.449s
+sys	0m3.079s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 422.476 ms, 2.321 Minst/s
+
+real	0m4.319s
+user	0m5.007s
+sys	0m2.156s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.299 s, 155.638 kinst/s
+
+real	0m10.289s
+user	0m11.926s
+sys	0m6.526s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.451 s, 400.002 kinst/s
+
+real	0m6.439s
+user	0m6.979s
+sys	0m2.454s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.029 s, 194.964 kinst/s
+
+real	0m9.011s
+user	0m9.785s
+sys	0m3.561s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.491 s, 280.863 kinst/s
+
+real	0m7.454s
+user	0m8.054s
+sys	0m2.966s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.357 s, 722.715 kinst/s
+
+real	0m5.299s
+user	0m5.930s
+sys	0m2.534s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.26s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.734 s, 358.596 kinst/s
+
+real	0m6.827s
+user	0m7.117s
+sys	0m2.365s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.927 s, 508.899 kinst/s
+
+real	0m5.833s
+user	0m6.502s
+sys	0m2.553s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.903 s, 166.081 kinst/s
+
+real	0m9.878s
+user	0m10.384s
+sys	0m2.838s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.844 s, 531.672 kinst/s
+
+real	0m5.847s
+user	0m6.614s
+sys	0m2.979s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 440.962 ms, 2.223 Minst/s
+
+real	0m4.432s
+user	0m5.079s
+sys	0m2.332s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.563 s, 214.851 kinst/s
+
+real	0m8.524s
+user	0m9.837s
+sys	0m5.313s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 337.391 ms, 2.906 Minst/s
+
+real	0m4.303s
+user	0m4.799s
+sys	0m1.720s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 853.064 ms, 1.149 Minst/s
+
+real	0m4.832s
+user	0m5.558s
+sys	0m2.670s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.649 s, 128.168 kinst/s
+
+real	0m11.637s
+user	0m12.637s
+sys	0m4.253s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.26s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 962.428 ms, 1.019 Minst/s
+
+real	0m5.073s
+user	0m5.472s
+sys	0m2.224s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.024 s, 324.162 kinst/s
+
+real	0m6.965s
+user	0m7.993s
+sys	0m4.102s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.12s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.562 s, 382.711 kinst/s
+
+real	0m6.538s
+user	0m7.336s
+sys	0m3.119s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.115 s, 463.560 kinst/s
+
+real	0m6.220s
+user	0m6.708s
+sys	0m2.021s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.460 s, 179.564 kinst/s
+
+real	0m9.482s
+user	0m10.565s
+sys	0m4.255s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.684 s, 266.122 kinst/s
+
+real	0m7.731s
+user	0m8.304s
+sys	0m2.614s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 14.483 s, 67.693 kinst/s
+
+real	0m18.586s
+user	0m20.289s
+sys	0m8.086s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.27s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.347 s, 225.527 kinst/s
+
+real	0m8.594s
+user	0m9.054s
+sys	0m2.826s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 546.064 ms, 1.795 Minst/s
+
+real	0m4.534s
+user	0m5.239s
+sys	0m2.669s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.011 s, 195.632 kinst/s
+
+real	0m9.064s
+user	0m10.436s
+sys	0m5.346s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.906 s, 337.348 kinst/s
+
+real	0m6.908s
+user	0m7.539s
+sys	0m2.557s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 11.112 s, 88.229 kinst/s
+
+real	0m15.124s
+user	0m17.022s
+sys	0m7.919s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 648.436 ms, 1.512 Minst/s
+
+real	0m4.748s
+user	0m5.568s
+sys	0m2.790s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.941 s, 248.762 kinst/s
+
+real	0m7.954s
+user	0m9.081s
+sys	0m4.264s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.609 s, 212.727 kinst/s
+
+real	0m8.632s
+user	0m9.625s
+sys	0m3.936s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.21s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.305 s, 227.740 kinst/s
+
+real	0m8.560s
+user	0m9.393s
+sys	0m3.512s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.866 s, 342.129 kinst/s
+
+real	0m6.947s
+user	0m7.713s
+sys	0m3.110s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.274 s, 769.670 kinst/s
+
+real	0m5.230s
+user	0m5.992s
+sys	0m2.754s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 592.928 ms, 1.654 Minst/s
+
+real	0m4.602s
+user	0m5.160s
+sys	0m2.195s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.176 s, 189.402 kinst/s
+
+real	0m9.324s
+user	0m10.474s
+sys	0m4.635s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.690 s, 580.217 kinst/s
+
+real	0m5.711s
+user	0m6.312s
+sys	0m2.505s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.446 s, 400.884 kinst/s
+
+real	0m6.434s
+user	0m6.934s
+sys	0m2.263s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.220 s, 232.300 kinst/s
+
+real	0m8.276s
+user	0m9.300s
+sys	0m4.263s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 7.851 s, 124.882 kinst/s
+
+real	0m11.904s
+user	0m13.327s
+sys	0m6.152s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.25s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.557 s, 383.475 kinst/s
+
+real	0m6.750s
+user	0m8.067s
+sys	0m4.842s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.329 s, 420.967 kinst/s
+
+real	0m6.355s
+user	0m7.279s
+sys	0m3.450s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.388 s, 223.435 kinst/s
+
+real	0m8.412s
+user	0m9.365s
+sys	0m4.040s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.236 s, 187.227 kinst/s
+
+real	0m9.420s
+user	0m10.391s
+sys	0m4.174s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.834 s, 534.594 kinst/s
+
+real	0m5.790s
+user	0m6.226s
+sys	0m1.666s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.459 s, 398.752 kinst/s
+
+real	0m6.608s
+user	0m7.336s
+sys	0m2.846s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 4.047 s, 242.270 kinst/s
+
+real	0m7.968s
+user	0m8.964s
+sys	0m4.063s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.09s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.692 s, 579.429 kinst/s
+
+real	0m5.740s
+user	0m6.346s
+sys	0m2.179s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.673 s, 586.119 kinst/s
+
+real	0m5.738s
+user	0m6.667s
+sys	0m3.063s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.24s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 5.601 s, 175.040 kinst/s
+
+real	0m9.795s
+user	0m10.240s
+sys	0m3.008s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 3.303 s, 296.866 kinst/s
+
+real	0m7.357s
+user	0m8.623s
+sys	0m4.700s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 8.938 s, 109.684 kinst/s
+
+real	0m13.104s
+user	0m14.781s
+sys	0m6.760s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.217 s, 442.171 kinst/s
+
+real	0m6.312s
+user	0m7.032s
+sys	0m2.803s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 2.770 s, 353.960 kinst/s
+
+real	0m6.811s
+user	0m7.428s
+sys	0m2.621s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.10s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.590 s, 616.499 kinst/s
+
+real	0m5.528s
+user	0m6.448s
+sys	0m3.232s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 6.889 s, 142.318 kinst/s
+
+real	0m10.906s
+user	0m11.431s
+sys	0m2.939s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.11s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 1.041 s, 941.897 kinst/s
+
+real	0m5.166s
+user	0m6.264s
+sys	0m3.721s
+    Finished dev [unoptimized + debuginfo] target(s) in 0.24s
+     Running `target/debug/banshee --num-cores 256 --num-clusters 1 --configuration config/mempool.yaml /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution`
+ INFO  banshee > Loading binary /scratch/bsc22f8/git/oswaldlo1/mempool/software/bin/convolution
+ INFO  banshee::engine > Launching binary on 256 harts
+ INFO  banshee::engine > Exit code is 0x0
+ INFO  banshee::engine > Retired 980409 (980 kinst) in 493.356 ms, 1.987 Minst/s
+
+real	0m4.694s
+user	0m5.265s
+sys	0m2.546s
