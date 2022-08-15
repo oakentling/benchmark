@@ -14,8 +14,16 @@ make config=mempool XPULP=0 simulation
 ##  Xpulp
 make config=mempool XPULP=1 simulation
 
+## Get results
+make config=mempool XPULP=0 get-results
+make config=mempool XPULP=1 get-results
+
+## Calculate average
+python3 average.py -f hardcore/
+
 # create backup
-\cp -rf . ../../benchmark-backup/
+DATETIME=`date +"%Y-%m-%d@%H-%M-%S"`
+\cp -rfp . ../../benchmark-backup/${DATETIME} # p will preserve timestamps etc.
 
 exit
 

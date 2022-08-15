@@ -43,10 +43,10 @@ ifndef app
   app := convolution
 endif
 
-APPS_DIR := $(BENCHMARK_DIR)/multicore/apps/baseline/
-APPS := $(patsubst $(APPS_DIR)%.dump,%,$(shell find $(APPS_DIR) -name "*.dump"))
+# APPS_DIR := $(BENCHMARK_DIR)/multicore/apps/baseline/
+# APPS := $(patsubst $(APPS_DIR)%.dump,%,$(shell find $(APPS_DIR) -name "*.dump"))
 
-TESTS := conv2d_i8 convolution matmul_i8 matmul_i16 matmul_i32
+TESTS := convolution matmul_i8 matmul_i16 matmul_i32 conv2d_i8
 
 rtl_dir := $(BENCHMARK_DIR)/$(CORES)/rtl-results/$(MODE)
 banshee_dir := $(BENCHMARK_DIR)/$(CORES)/banshee-results/$(MODE)
